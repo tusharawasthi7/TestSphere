@@ -1,0 +1,24 @@
+@charset "UTF-8";
+.error-container {
+    text-align: center;
+    padding: 50px;
+    font-family: Arial, sans-serif;
+}
+
+h1 {
+    font-size: 36px;
+    color: #ff6b6b;
+}
+
+p {
+    font-size: 18px;
+    margin: 20px 0;
+}
+
+a.btn {
+    text-decoration: none;
+    background-color: #4CAF50;
+    color: white;
+    padding: 10px 20px;
+    border-radius: 5px;
+}

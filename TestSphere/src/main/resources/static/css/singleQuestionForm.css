@@ -1,0 +1,84 @@
+
+body {
+    font-family: Arial, sans-serif;
+    background: #4B0082;
+    background-size: cover;
+    margin: 0;
+    padding: 0;
+}
+
+.container {
+    max-width: 700px; /* Increased width to accommodate both sections */
+    margin: 30px auto;
+    padding: 20px;
+    background: rgb(255, 255, 255);
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    border-radius: 8px;
+}
+
+h1 {
+    text-align: center;
+    color: #333;
+}
+
+label {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: bold;
+}
+
+input[type="text"], button {
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 15px;
+    border: 1px solid #ccc;
+    border-radius: 4px;
+}
+
+button {
+    background: #8A2BE2;
+    color: white;
+    font-weight: bold;
+    cursor: pointer;
+}
+
+button:hover {
+    background: #D8BFD8;
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: wrap; /* Allow wrapping if container gets too small */
+    justify-content: space-between;
+    align-items: flex-start;
+    gap: 20px;
+}
+
+.flex-item {
+    flex: 1 1 45%; /* Flex properties for better responsive design */
+    min-width: 200px; /* Minimum width to prevent overlapping */
+}
+
+.option-row {
+    display: flex;
+    align-items: center;
+    gap: 10px;
+}
+
+.option-container, .correct-option-container {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+}
+
+.correct-option-container input[type="checkbox"] {
+    margin-right: 10px;
+}
+
+button.add-option {
+    background: #8A2BE2;
+}
+
+button.add-option:hover {
+    background: #D8BFD8;
+}

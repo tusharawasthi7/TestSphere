@@ -1,0 +1,105 @@
+ @charset "UTF-8";
+
+body {
+	font-family: Arial, sans-serif;
+	margin: 0;
+	padding: 0;
+	background:#4B0082;
+	background-size: cover;
+}
+
+.container {
+	max-width: 600px;
+	margin: 20px auto;
+	padding: 20px;
+	background:white;
+	box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+	border-radius: 8px;
+}
+
+h1 {
+	text-align: center;
+	color: #333;
+}
+
+label {
+	display: block;
+	margin-bottom: 8px;
+	font-weight: bold;
+}
+
+input, button {
+	width: 100%;
+	padding: 10px;
+	margin-bottom: 15px;
+	border: 1px solid #ccc;
+	border-radius: 4px;
+	box-sizing: border-box;
+}
+
+button {
+	background: #8A2BE2;
+	color: white;
+	font-weight: bold;
+	cursor: pointer;
+}
+
+button:hover {
+	 background: #D8BFD8;
+}
+
+.question-block {
+	border: 1px solid #ddd;
+	margin-bottom: 20px;
+	padding: 15px;
+	border-radius: 5px;
+	background: #f9f9f9;
+}
+
+.question-block h3 {
+	margin-bottom: 10px;
+	color: #444;
+}
+
+.option-container {
+	display: flex;
+	flex-wrap: wrap;
+	gap: 10px;
+	margin-bottom: 10px;
+}
+
+.option-container input {
+	flex: 1;
+}
+
+.option-item {
+	margin-bottom: 10px; 
+}
+
+.option-input {
+	display: block; 
+	margin-bottom: 5px; 
+}
+
+.option-checkbox-label {
+	display: block; 
+}
+
+.option-checkbox {
+	display: block; 
+	margin-bottom: 10px;
+} Space between checkboxes
+ .option-item {
+        display: flex;
+        align-items: center;
+        margin-bottom: 10px;
+    }
+    .option-input {
+        margin-right: 10px;
+        flex: 1;
+    }
+    .add-option-button{
+    width:100px
+    }
+    
+     

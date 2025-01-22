@@ -1,0 +1,101 @@
+@charset "UTF-8";
+ body {
+	font-family: Arial, sans-serif;
+	background-color: #4B0082;
+	color: #333;
+	padding: 20px;
+}
+
+.container {
+	background: #fff;
+	padding: 20px;
+	border-radius: 8px;
+	box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+	width: 80%;
+	margin-left: 15vh;
+	max-width: 1200px;
+	height: auto; /* Ensures the height adjusts to content */
+	margin-top: 20px; /* Ensure container has margin at the top */
+}
+
+table {
+	width: 95%;
+	margin: 0 auto;
+	margin-top:-5px;
+	border-collapse: collapse;
+	height:fit-content;
+}
+
+tr {
+	color: white;
+	margin-bottom: 10px; /* Margin between rows */
+}
+
+tr:nth-child(even) td {
+	background: #14213d; /* Slightly lighter blue for alternating rows */
+}
+
+tr:hover td {
+	background: #8d99ae; /* Pink */
+	color: #4B0082; /* Dark blue text on hover */
+}
+
+th, td {
+	background: #1e1e40;
+	padding: 10px;
+	border: 1px solid #ddd;
+	text-align: left;
+}
+
+th {
+	background: #8A2BE2;
+}
+
+th {
+	color: white;
+}
+
+.edit-button, .add-question-button {
+	background-color: #8A2BE2;
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.edit-button:hover, .add-question-button:hover {
+	background-color: #D8BFD8;
+}
+
+.status-button {
+	color: white;
+	padding: 5px 10px;
+	border: none;
+	border-radius: 3px;
+	cursor: pointer;
+}
+
+.btn-back {
+    display: inline-block;
+    padding: 10px 15px;
+    background-color: #8A2BE2; 
+    color: white;
+    text-decoration: none;
+    border-radius: 5px;
+    cursor: pointer;
+    margin-top: 20px;
+    margin-left: 360px;
+}
+
+.btn-back:hover {
+    background-color:#D8BFD8;
+}
+
+.live-button {
+	background-color: #4CAF50;
+}
+
+.closed-button {
+	background-color: red;
+}

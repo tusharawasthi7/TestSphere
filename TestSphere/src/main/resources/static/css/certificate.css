@@ -1,0 +1,115 @@
+@charset "UTF-8";
+ body {
+            font-family: 'Raleway', sans-serif;
+            background-color: #f4f6f9;
+            margin: 0;
+            padding: 0;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            min-height: 100vh;
+        }
+        .certificate {
+            background: #FFFBBD; /* Light yellow background */
+            padding: 30px;
+            border: 15px double #3498db; /* Double border with blue color */
+            border-radius: 16px;
+            box-shadow: 0 0 20px rgba(0, 0, 0, 0.1);
+            text-align: center;
+            width: 800px;
+            max-width: 100%;
+            position: relative;
+            overflow: hidden;
+        }
+        .corner-design {
+            position: absolute;
+            width: 50px;
+            height: 50px;
+            background: linear-gradient(145deg, #3498db, #8e44ad);
+            border-radius: 50%;
+            opacity: 0.5;
+        }
+        .top-left {
+            top: -25px;
+            left: -25px;
+        }
+        .top-right {
+            top: -25px;
+            right: -25px;
+        }
+        .bottom-left {
+            bottom: -25px;
+            left: -25px;
+        }
+        .bottom-right {
+            bottom: -25px;
+            right: -25px;
+        }
+        .certificate img {
+            max-width: 100px;
+            height: auto;
+            margin-bottom: 10px;
+        }
+        .certificate h2 {
+            font-size: 36px;
+            margin-bottom: 10px;
+            color: #2980b9;
+        }
+        .certificate p {
+            font-family: 'Roboto', sans-serif;
+            font-size: 20px;
+            margin-bottom: 5px;
+            color: #2c3e50;
+        }
+        .certificate .username {
+            font-family: 'Raleway', sans-serif;
+            color: #e74c3c;
+            font-weight: bold;
+        }
+        .certificate .test {
+            font-family: 'Raleway', sans-serif;
+            color: #8e44ad;
+            font-weight: bold;
+        }
+        .certificate .details {
+            font-family: 'Roboto', sans-serif;
+            color: #2c3e50;
+            margin-top: 10px;
+            font-size: 18px;
+        }
+        .certificate .serial-number {
+            position: absolute;
+            top: 20px;
+            right: 20px;
+            font-family: 'Roboto', sans-serif;
+            color: #2c3e50;
+            font-size: 16px;
+            font-weight: bold;
+        }
+        .certificate .signature {
+            margin-top: 20px;
+            display: flex;
+            justify-content: space-between;
+            padding: 0 20px;
+        }
+        .certificate .signature div {
+            text-align: center;
+        }
+        .certificate .signature div p {
+            margin: 0;
+            font-size: 16px;
+            color: #34495e;
+        }
+        .btn {
+            padding: 10px 20px;
+            background-color: #3498db; /* Blue button */
+            color: white;
+            text-decoration: none;
+            border-radius: 5px;
+            margin-top: 10px;
+            transition: background-color 0.3s ease;
+            display: inline-block;
+        }
+        .btn:hover {
+            background-color: #2980b9; /* Darker blue on hover */
+        }
